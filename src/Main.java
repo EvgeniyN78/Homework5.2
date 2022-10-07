@@ -111,7 +111,6 @@ public class Main {
         for (int j = 1; j < 11; j++) {
 
             System.out.println("2 * " + j + " = " + (2 * j));
-
         }
     }
 }
