@@ -91,6 +91,26 @@ public class Main {
             System.out.println("Сегодня пятница " + j + " число. Необходимо подготовить отчёт.");
 
         }
+        System.out.println(" ");
+        //Задание 7
+        System.out.println("Задание 7");
 
+        int yearBefore = 2022 - 200;
+        int yearAfter = 2022 + 100;
+
+        for (int j = 0; j < yearAfter; j = j + 79) {
+            if (j > yearBefore) {
+                System.out.println(j);
+            }
+        }
+        System.out.println(" ");
+
+        //Задание 8
+        System.out.println("Задание 8");
+
+        for (int j = 1; j < 11; j++) {
+
+            System.out.println("2 * " + j + " = " + (2 * j));
+        }
     }
 }
