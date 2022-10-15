@@ -17,7 +17,7 @@ public class Main {
             System.out.println("Месяц " + month + ", сумма накоплений равна " + total + " рублей");
         }
 
-        System.out.println("");
+        System.out.println();
 
         //Задание 2
         System.out.println("Задание 2");
@@ -32,24 +32,26 @@ public class Main {
         for (int j = 10; j > 0; j--) {
             System.out.print(j + " ");
         }
-        System.out.println(" ");
-        System.out.println(" ");
+        System.out.println();
+        System.out.println();
 
         //Задание 3
         System.out.println("Задание 3");
 
-        int population = 17_000_000;
-        int birthRate = population/1_000*17;
-        int mortality = population/1_000*8;
+        int population = 12_000_000;
+        int birthRate;
+        int mortality;
         int year = 0;
             for (int k = 1; k < 11; k++) {
+                birthRate = population / 1_000 * 17;
+                mortality = population / 1_000 * 8;
             population = population + birthRate - mortality;
             year = year + 1;
 
-            System.out.println("Год " + year + ", численность населения составляет " + population);
+            System.out.println("Год " + year + "-й, численность населения составляет " + population);
             
         }
-        System.out.println(" ");
+        System.out.println();
 
         //Задание 4
         System.out.println("Задание 4");
@@ -65,7 +67,7 @@ public class Main {
                 System.out.println("Месяц " + months + ", сумма " + sum + " рублей.");
             }
         }
-        System.out.println(" ");
+        System.out.println();
         //Задание 5
         System.out.println("Задание 5");
 
@@ -80,7 +82,7 @@ public class Main {
                 System.out.println("Месяц " + months + ", сумма " + sum + " рублей.");
             }
         }
-        System.out.println(" ");
+        System.out.println();
         //Задание 6
         System.out.println("Задание 6");
 
@@ -91,7 +93,7 @@ public class Main {
             System.out.println("Сегодня пятница " + j + " число. Необходимо подготовить отчёт.");
 
         }
-        System.out.println(" ");
+        System.out.println();
         //Задание 7
         System.out.println("Задание 7");
 
@@ -103,7 +105,7 @@ public class Main {
                 System.out.println(j);
             }
         }
-        System.out.println(" ");
+        System.out.println();
 
         //Задание 8
         System.out.println("Задание 8");
