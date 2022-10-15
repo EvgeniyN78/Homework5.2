@@ -10,7 +10,8 @@ public class Main {
         int month = 0;
 
             while (total < 2459000) {
-            total = total + sumDeposit + (total / 100 * rate / 12);;
+            total = total + sumDeposit;
+            total = total + (total / 100 * rate / 12);
             month = month + 1;
 
             System.out.println("Месяц " + month + ", сумма накоплений равна " + total + " рублей");
